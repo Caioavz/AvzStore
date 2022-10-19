@@ -1,0 +1,253 @@
+*{
+			margin:0;
+			padding:0px;
+			border:0;
+		}
+
+		html{
+
+			font-size: 16px;
+		}
+
+	header{
+			background-color: #A9A9A9; 
+			font-family: arial;
+			width: 100% ;
+			position: fixed;
+			text-shadow: 1px 1px 1px;	
+			margin-bottom: 1%;
+
+	}
+
+	h1{
+
+		font-family: Didot;
+		text-align: center;
+		padding-top: 5px;
+		font-size: 2,9rem;
+
+	}
+
+	h2{
+
+		font-family: arial;
+		text-align: left;
+		padding-left: 2%;
+		font-size: 20px;
+		color: #8B0000;
+		text-shadow: 1px 1px 1px #000;
+		padding-top: 10px;
+	}
+
+	h3 {
+		font-family: Didot; 
+		margin: 0;
+		font size: 2rem; 
+		background: #8B0000	;
+		color: #FFFFFF;
+		text-align: center;		 
+	}	
+
+	h4 {
+		font-family: Didot; 
+		margin: 0;
+		font size: 1rem;
+		background-color: #8B0000	;
+		color: #FFFFFF;	
+		text-align: center;
+	}
+
+	h5{
+		font-family: didot;
+		text-align: center;
+		padding: 1px;
+		font-size: 20px;
+
+	}	
+
+	body{
+
+		background-color: rgba(128,128,128);
+	}
+
+	footer{
+
+		font-family: arial;
+		color: #FFFFFF;	 
+		background-color: #000;
+		text-align: center;
+		padding-top: 1%;
+		padding-bottom: 1%;
+		text-shadow: 1px 1px 1px;
+
+	}
+
+
+	.container {
+
+		display: block;
+		background-color: #FFFFFF	;
+		width: 95%;
+		box-shadow: 2px 2px #000000;
+		margin: 0 auto;
+		max-width: 96%;
+		max-height: 96%; 
+		min-width: 0;
+		min-height: 0; 
+	
+
+
+	}
+
+	p{
+
+		font-family: arial;
+		text-align: justify;
+		padding-left: 10px;
+		padding-right: 10px;
+		padding: 5px;
+		size: 1,6rem;
+	}
+
+	.texto-footer{
+
+		text-align: center;
+		font-family: arial;
+		font-size: 1,6rem;
+		
+	}
+
+	.compre{
+
+		background-color: #800080	;
+		width: 150px;
+		height: 100px;
+		position: fixed;
+		right: 0;
+		text-align: center;
+		margin-top: 10%;
+		z-index: 1;
+	}
+
+	button{
+
+		font-family: arial;
+		padding: 2px;
+		font-size: 15px;
+		background-color: #A9A9A9;
+		color: #fff;
+		border: solid #000;
+		margin-left: 3%;
+		border-radius: 10px;
+		margin-bottom: 1%;
+
+	}
+
+	#grid-container{
+
+		background-color:  #8B0000;
+
+	}
+
+	.grid{
+
+		display: grid;
+		grid-template-columns:repeat (auto-fill, minmax(300px, 1fr));
+		grid-gap: 1px;
+		background-color: 
+		max-width: 1200px;
+		margin: 0 auto;
+
+	}	
+
+	.grid div{
+
+		background-color: #fff;
+		font-family: arial;
+		text-align: center;
+		font-size: 16px;
+		padding: 2px;
+
+	}
+
+	#formulario{
+		background-color: #8B0000;
+
+	}
+
+	.formulario-contato{
+
+		font-family: arial;
+		font-size: 15px;
+		padding: 10px;
+		text-align: left;
+		margin-left: 3%;
+		font-weight: bold;
+	}
+
+
+	input{
+
+		font-family: sans-serif;
+		font-size: 15PX;
+		padding: 5px;
+		border: solid;
+		padding-left: 1%;
+		margin-left: 1%;
+		border-radius: 10px;
+	}
+
+	label{
+
+		font-family: arial;
+		font-size: 16px;
+		font-weight: bold;
+		margin-left: 3%;
+
+	}
+
+	.dados-formulario{
+
+		width: 50%;
+	}
+
+	nav{
+		text-align: right;
+		margin top: 10px;
+		font-weight: bold;
+		font-family: arial;
+		font-size: 15px;
+		margin-right: 2%;
+		word-spacing: 10px;
+
+	}
+
+	a{
+
+		text-decoration: none;
+		color: #8B0000; 
+		transition: all 300ms ease-in-out;
+	}
+
+	a:hover{
+
+		color: #808080;	
+		
+	}
+
+	img{
+		width:72px;
+		height:72px;
+		bottom:15px;
+		right:10px;
+		background: #D6249F;
+		background:
+		radial-gradient(circle at 80% 107%, #FDF497 0%, #FDF497 5%, #FD5949 45%,#D6249F 60%,#285AEB 90%);
+		;color:#FFF;
+		border-radius:40px;
+		text-align:center;
+		font-size:30px;
+	    box-shadow: 0px 0px 2px #888;
+  	    z-index:1000;
+
+	}
